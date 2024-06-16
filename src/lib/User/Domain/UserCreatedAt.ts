@@ -4,6 +4,7 @@ export class UserCreatedAt{
 
     constructor(value: Date){
         this.value = value;
+        this.isValid()
     }
 
     private isValid(){

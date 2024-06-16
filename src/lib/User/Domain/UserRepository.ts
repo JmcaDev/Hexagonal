@@ -8,5 +8,5 @@ export interface UserRepository{
     getUsers(): Promise<User[]>;
     getUserById(id: UserId): Promise<User | null>;
     editUser(user: User): Promise<void>;
-    delete(id: UserId): Promise<void>;
+    deleteUser(id: UserId): Promise<void>;
 }
